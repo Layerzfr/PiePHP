@@ -6,7 +6,7 @@ Class ORM{
     private $connexion;
 
     public function __construct(){
-        $this->connexion = new PDO('mysql:host=localhost; dbname=mvc', 'root', 'baptiste02300');
+        $this->connexion = new PDO('mysql:host=localhost; dbname=mvc', 'root', '');
     }
 
     public function create ($table, $fields) {
